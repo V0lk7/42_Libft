@@ -6,7 +6,7 @@
 /*   By: jduval <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/03 14:21:46 by jduval            #+#    #+#             */
-/*   Updated: 2022/11/29 16:31:21 by jduval           ###   ########.fr       */
+/*   Updated: 2022/12/05 09:26:34 by jduval           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,15 +20,6 @@ typedef enum e_bool
 	FALSE = 0,
 	TRUE = 1
 }	t_bool;
-
-typedef struct s_cbuf
-{
-	int	*tab;
-	ssize_t	head;
-	ssize_t	tail;
-	size_t	max;
-	t_bool	full;
-}	t_cbuf;
 
 typedef struct s_list
 {
