@@ -6,16 +6,14 @@
 /*   By: jduval <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/03 14:21:46 by jduval            #+#    #+#             */
-/*   Updated: 2023/04/01 12:17:06 by jduval           ###   ########.fr       */
+/*   Updated: 2023/05/10 14:41:10 by jduval           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef LIBFT_H
 # define LIBFT_H
 
-# include <stdarg.h>
-# include <fcntl.h>
-# include <sys/wait.h>
+# include <stddef.h>
 
 typedef enum e_bool
 {
@@ -56,6 +54,7 @@ char		*ft_strtrim(char const *s1, char const *set);
 int			ft_strcspn(char const *str, char const *reject);
 char		*ft_substr(char const *s, unsigned int start, size_t len);
 int			ft_array_len(char **array);
+void		ft_free_array(char **array);
 
 void		ft_putchar_fd(int fd, char c);
 void		ft_putstr_fd(int fd, char *s);
@@ -81,7 +80,8 @@ t_list		*ft_lstnew(void *content);
 int			ft_atoi(const char *nptr);
 int			ft_atoi_base(char *str, int str_base);
 char		*ft_itoa(int n);
-char		**ft_split(char *s, char c);
+char		**ft_split_char(char *s, char c);
+char		**ft_split_str(const char *s, const char *delim);
 
 void		ft_bzero(void *s, size_t n);
 void		*ft_calloc(size_t nmemb, size_t size);

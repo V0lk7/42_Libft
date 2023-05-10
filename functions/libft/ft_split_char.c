@@ -1,12 +1,12 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_split.c                                         :+:      :+:    :+:   */
+/*   ft_split_char.c                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: jduval <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/08 10:36:30 by jduval            #+#    #+#             */
-/*   Updated: 2023/04/01 12:09:42 by jduval           ###   ########.fr       */
+/*   Updated: 2023/05/10 14:30:30 by jduval           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -90,7 +90,7 @@ static int	ft_fill(char **srcs_tab, size_t len_y, char c, const char *s)
 	return (0);
 }
 
-char	**ft_split(char *s, char c)
+char	**ft_split_char(char *s, char c)
 {
 	char	**srcs_tab;
 	size_t	len_y;

@@ -6,13 +6,13 @@
 /*   By: jduval <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/18 08:30:17 by jduval            #+#    #+#             */
-/*   Updated: 2023/04/01 12:23:28 by jduval           ###   ########.fr       */
+/*   Updated: 2023/05/10 13:38:28 by jduval           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 #include <unistd.h>
-#include <stdlib.h>
+#include <stdarg.h>
 
 static void	ft_putnbr_printf(long unsigned int n, int fd)
 {

@@ -6,7 +6,7 @@
 #    By: jduval <marvin@42.fr>                      +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/10/03 13:18:12 by jduval            #+#    #+#              #
-#    Updated: 2023/04/01 12:18:45 by jduval           ###   ########.fr        #
+#    Updated: 2023/05/10 14:40:48 by jduval           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -54,7 +54,8 @@ SRCS 		:=	libft/ft_bzero.c		\
 				libft/ft_strjoin.c		\
 				libft/ft_strjoin_free.c \
 				libft/ft_strtrim.c		\
-				libft/ft_split.c 		\
+				libft/ft_split_char.c 	\
+				libft/ft_split_str.c 	\
 				libft/ft_itoa.c			\
 				libft/ft_strmapi.c		\
 				libft/ft_striteri.c		\
@@ -75,7 +76,7 @@ SRCS 		:=	libft/ft_bzero.c		\
 				libft/ft_array_lengh.c	\
 				libft/ft_atoi_base.c	\
 				libft/ft_strcspn.c		\
-				libft/free_array.c		\
+				libft/ft_free_array.c	\
 				libft/ft_strcmp.c		\
 				libft/ft_strcpy.c		\
 				\
